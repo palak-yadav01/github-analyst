@@ -1,16 +1,85 @@
-# React + Vite
+# 🔍 GitPulse — GitHub Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A powerful GitHub analytics dashboard built with React + Vite that lets you analyze any developer's profile and compare two users side by side.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** https://github-analyst-lemon.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📊 **Contribution Heatmap** — visualize yearly contribution activity
+- ⭐ **Repo Analytics** — stars, forks, issues across all repos
+- 🌐 **Language Breakdown** — see which languages a developer uses most
+- 🏥 **Health Score** — overall developer profile score out of 100
+- 📡 **Radar Chart** — visualize 5 health dimensions at once
+- ⚔ **Compare Mode** — analyze two GitHub users side by side
+- 🏆 **Head to Head** — see who wins across every metric
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js v18+
+- npm
+
+### Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/palak-yadav01/github-analyst.git
+
+# Go into the folder
+cd github-analyst
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+Open http://localhost:5173 in your browser.
+🔑 GitHub Token 
+A token unlocks:
+Contribution heatmap graph
+Higher API rate limits (60 → 5000 requests/hour)
+How to get one:
+Go to GitHub → Settings → Developer Settings
+Personal Access Tokens → Tokens (classic)
+Generate new token with read:user and repo scopes
+Paste it into the token field in the dashboard
+🛠 Built With
+Tech
+Purpose
+React + Vite
+Frontend framework
+Recharts
+Charts and visualizations
+GitHub REST API
+Profile and repo data
+GitHub GraphQL API
+Contribution calendar
+Vercel
+Deployment
+📸 Screenshots
+Single User Analytics
+Profile card with health score
+Stat cards (repos, stars, forks, followers)
+Contribution heatmap
+Language distribution
+Top repos table
+Compare Mode
+Head to Head stats panel
+Side by side profile comparison
+Blue vs Red color coding
+📦 Deployment
+# Build for production
+npm run build
+
+# Deploy to Vercel
+vercel --prod
+🤝 Contributing
+Pull requests are welcome! For major changes please open an issue first.
+📄 License
+MIT License — feel free to use this project however you like.
+Made with ❤️ by palak-yadav01
