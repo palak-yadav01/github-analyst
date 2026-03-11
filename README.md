@@ -17,6 +17,22 @@ A powerful GitHub analytics dashboard built with React + Vite that lets you anal
 - 🏆 **Head to Head** — see who wins across every metric
 
 ---
+📸 Screenshots
+Single User Analytics
+Profile card with health score
+Stat cards (repos, stars, forks, followers)
+Contribution heatmap
+Language distribution
+Top repos table
+
+<img width="1865" height="941" alt="Screenshot 2026-03-12 000408" src="https://github.com/user-attachments/assets/0f88e652-d425-44b4-ae81-8b8b4312fdee" />
+
+Compare Mode
+Head to Head stats panel
+Side by side profile comparison
+Blue vs Red color coding
+
+<img width="1848" height="892" alt="Screenshot 2026-03-12 000149" src="https://github.com/user-attachments/assets/e8802e91-499a-4ff2-97ce-6f12785bd0d9" />
 
 ## 🚀 Getting Started
 
@@ -61,17 +77,7 @@ GitHub GraphQL API
 Contribution calendar
 Vercel
 Deployment
-📸 Screenshots
-Single User Analytics
-Profile card with health score
-Stat cards (repos, stars, forks, followers)
-Contribution heatmap
-Language distribution
-Top repos table
-Compare Mode
-Head to Head stats panel
-Side by side profile comparison
-Blue vs Red color coding
+
 📦 Deployment
 # Build for production
 npm run build
